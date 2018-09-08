@@ -1,0 +1,12 @@
+.App {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.Red {
+  background: lightblue;
+}
