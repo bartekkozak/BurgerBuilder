@@ -31,7 +31,7 @@ export default props => {
         className={classes.OrderButton}
         disabled={!props.purchaseable}
       >
-        ORDER NOW
+        {props.isAuth ? "ORDER NOW" : "SIGN UP TO ORDER"}
       </button>
     </div>
   );
